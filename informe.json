@@ -1,0 +1,1362 @@
+{
+  "titulo": "Línea base",
+  "descripcion": "Proceso de preparación y caracterización inicial.",
+  "secciones": [
+    
+    {
+      "id": "localizacion",
+      "titulo": "Localización",
+      "nivel": 2,
+      "descripcion": "Información sobre la ubicación geográfica del área de estudio.",
+      "palabras_clave": ["ubicación", "geografía", "departamento", "municipio", "sector"],
+      "subsecciones": [
+        {
+          "id": "localizacion_departamento",
+          "titulo": "Departamento, Municipio, Sector rural, Cabecera, Corregimiento",
+          "nivel": 3,
+          "descripcion": "Detalles específicos de la ubicación administrativa.",
+          "palabras_clave": ["departamento", "municipio", "sector rural", "cabecera", "corregimiento"],
+          "subsecciones": []
+        }
+      ]
+    }
+    ,
+    {
+      "id": "componente_fisico",
+      "titulo": "Componente Físico",
+      "nivel": 2,
+      "descripcion": "Descripción de las características físicas del terreno.",
+      "palabras_clave": ["físico", "terreno", "topografía", "clima", "hidrología"],
+      "subsecciones": [
+        {
+          "id": "topografia",
+          "titulo": "Topografía",
+          "nivel": 3,
+          "descripcion": "Descripción del terreno, incluyendo elevaciones, curvas de nivel, pendientes y formas del terreno (cima, ladera, pie de monte, planicie o valle).",
+          "palabras_clave": ["elevaciones", "curvas de nivel", "pendientes", "terreno"],
+          "subsecciones": [
+            {
+              "id": "pendientes",
+              "titulo": "Pendientes",
+              "nivel": 4,
+              "descripcion": "Porcentajes de pendientes máxima, mínima y promedio.",
+              "palabras_clave": ["máxima", "mínima", "promedio", "rangos"],
+              "subsecciones": []
+            },
+            {
+              "id": "altitud",
+              "titulo": "Altitud",
+              "nivel": 4,
+              "descripcion": "Porcentajes de altitud máxima, mínima y promedio.",
+              "palabras_clave": ["máxima", "mínima", "promedio"],
+              "subsecciones": []
+            },
+            {
+              "id": "pisos_termicos",
+              "titulo": "Pisos térmicos",
+              "nivel": 4,
+              "descripcion": "Rangos altitudinales de los pisos térmicos presentes.",
+              "palabras_clave": ["rangos altitudinales", "pisos térmicos"],
+              "subsecciones": []
+            }
+          ]
+        },
+        {
+          "id": "geoformas",
+          "titulo": "Geoformas",
+          "nivel": 3,
+          "descripcion": "Análisis de las formas geológicas y topográficas del terreno.",
+          "palabras_clave": ["geoformas", "topografía", "paisaje"],
+          "subsecciones": [
+            {
+              "id": "posicion_topografica",
+              "titulo": "Posición topográfica del Terreno",
+              "nivel": 4,
+              "descripcion": "Categorías de posición topográfica: Cima, Ladera y Cañón.",
+              "palabras_clave": ["cima", "ladera", "cañón"],
+              "subsecciones": []
+            },
+            {
+              "id": "rugosidad_paisaje",
+              "titulo": "Rugosidad del Paisaje",
+              "nivel": 4,
+              "descripcion": "Categorías de rugosidad: Muy alta, Alta, Media, etc.",
+              "palabras_clave": ["rugosidad", "muy alta", "alta", "media"],
+              "subsecciones": []
+            },
+            {
+              "id": "orientacion_terreno",
+              "titulo": "Orientación del terreno",
+              "nivel": 4,
+              "descripcion": "Categorías de orientación: Norte, Nororiente, Noroccidente, etc.",
+              "palabras_clave": ["orientación", "norte", "nororiente", "noroccidente"],
+              "subsecciones": []
+            }
+          ]
+        },
+        {
+          "id": "suelos",
+          "titulo": "Suelos",
+          "nivel": 3,
+          "descripcion": "Caracterización de los suelos y sus propiedades.",
+          "palabras_clave": ["suelos", "clasificación", "textura", "pH"],
+          "subsecciones": [
+            {
+              "id": "clasificacion_suelo",
+              "titulo": "Clasificación",
+              "nivel": 4,
+              "descripcion": "Categorías: tipos de suelo y sus características.",
+              "palabras_clave": ["tipos de suelo", "características"],
+              "subsecciones": []
+            },
+            {
+              "id": "textura_suelo",
+              "titulo": "Textura del suelo",
+              "nivel": 4,
+              "descripcion": "Categorías: arena, limo y arcilla por rango de profundidades.",
+              "palabras_clave": ["arena", "limo", "arcilla", "profundidades"],
+              "subsecciones": []
+            },
+            {
+              "id": "ph_suelo",
+              "titulo": "pH",
+              "nivel": 4,
+              "descripcion": "Valor de pH por profundidades.",
+              "palabras_clave": ["pH", "acidez", "alcalinidad", "profundidades"],
+              "subsecciones": []
+            },
+            {
+              "id": "densidad_aparente",
+              "titulo": "Densidad aparente",
+              "nivel": 4,
+              "descripcion": "Valor densidad aparente (g/cm3) por profundidades.",
+              "palabras_clave": ["densidad", "g/cm3", "profundidades"],
+              "subsecciones": []
+            },
+            {
+              "id": "cic",
+              "titulo": "Capacidad de Intercambio Catiónico (CIC)",
+              "nivel": 4,
+              "descripcion": "Valor CIC por profundidades.",
+              "palabras_clave": ["CIC", "intercambio catiónico", "profundidades"],
+              "subsecciones": []
+            },
+            {
+              "id": "materia_organica",
+              "titulo": "Materia Orgánica del Suelo",
+              "nivel": 4,
+              "descripcion": "Valor de carbono orgánico (g/kg) por profundidades.",
+              "palabras_clave": ["materia orgánica", "carbono orgánico", "g/kg", "profundidades"],
+              "subsecciones": []
+            },
+            {
+              "id": "nitrogeno_total",
+              "titulo": "Nitrógeno Total del Suelo",
+              "nivel": 4,
+              "descripcion": "Valor Nitrógeno (g/kg) por profundidades.",
+              "palabras_clave": ["nitrógeno", "g/kg", "profundidades"],
+              "subsecciones": []
+            }
+          ]
+        },
+        {
+          "id": "clima_actual",
+          "titulo": "Clima actual",
+          "nivel": 3,
+          "descripcion": "Evaluación de patrones climáticos, precipitaciones y temperaturas con apoyo cartográfico.",
+          "palabras_clave": ["clima", "precipitaciones", "temperaturas", "cartografía"],
+          "subsecciones": [
+            {
+              "id": "temperatura_actual",
+              "titulo": "Temperatura",
+              "nivel": 4,
+              "descripcion": "Grados C° Máxima, promedio y mínima mensual.",
+              "palabras_clave": ["temperatura", "grados", "máxima", "promedio", "mínima"],
+              "subsecciones": []
+            },
+            {
+              "id": "precipitacion_actual",
+              "titulo": "Precipitación",
+              "nivel": 4,
+              "descripcion": "Milímetros mensual.",
+              "palabras_clave": ["precipitación", "lluvia", "milímetros"],
+              "subsecciones": []
+            },
+            {
+              "id": "velocidad_viento",
+              "titulo": "Velocidad del viento",
+              "nivel": 4,
+              "descripcion": "M/s mensual.",
+              "palabras_clave": ["viento", "velocidad", "m/s"],
+              "subsecciones": []
+            },
+            {
+              "id": "radiacion_solar",
+              "titulo": "Radiación solar",
+              "nivel": 4,
+              "descripcion": "W/m2.",
+              "palabras_clave": ["radiación", "solar", "W/m2"],
+              "subsecciones": []
+            },
+            {
+              "id": "variables_bioclimaticas_actual",
+              "titulo": "Variables bioclimáticas",
+              "nivel": 4,
+              "descripcion": "15 Variables: Temp. Media anual, Temp. Media trimestre más cálido, etc.",
+              "palabras_clave": ["bioclimáticas", "temperatura media", "trimestre"],
+              "subsecciones": []
+            }
+          ]
+        },
+        {
+          "id": "clima_futuro",
+          "titulo": "Clima futuro",
+          "nivel": 3,
+          "descripcion": "Proyecciones climáticas a futuro.",
+          "palabras_clave": ["clima", "futuro", "proyecciones", "cambio climático"],
+          "subsecciones": [
+            {
+              "id": "temperatura_futura",
+              "titulo": "Temperatura",
+              "nivel": 4,
+              "descripcion": "Grados C° Máxima, promedio y mínima mensual.",
+              "palabras_clave": ["temperatura", "grados", "máxima", "promedio", "mínima", "futuro"],
+              "subsecciones": []
+            },
+            {
+              "id": "precipitacion_futura",
+              "titulo": "Precipitación",
+              "nivel": 4,
+              "descripcion": "Milímetros mensual.",
+              "palabras_clave": ["precipitación", "lluvia", "milímetros", "futuro"],
+              "subsecciones": []
+            },
+            {
+              "id": "variables_bioclimaticas_futuro",
+              "titulo": "Variables bioclimáticas",
+              "nivel": 4,
+              "descripcion": "15 Variables: Temp. Media anual, Temp. Media trimestre más cálido, etc.",
+              "palabras_clave": ["bioclimáticas", "temperatura media", "trimestre", "futuro"],
+              "subsecciones": []
+            }
+          ]
+        },
+        {
+          "id": "hidrologia",
+          "titulo": "Hidrología",
+          "nivel": 3,
+          "descripcion": "Identificación de cuerpos de agua y sistemas hidrológicos en los predios y áreas de influencia.",
+          "palabras_clave": ["hidrología", "cuerpos de agua", "red hídrica", "caudal"],
+          "subsecciones": [
+            {
+              "id": "cuerpos_agua",
+              "titulo": "Cuerpos de agua",
+              "nivel": 4,
+              "descripcion": "Hectáreas.",
+              "palabras_clave": ["cuerpos de agua", "hectáreas", "lagos", "lagunas"],
+              "subsecciones": []
+            },
+            {
+              "id": "red_hidrica",
+              "titulo": "Red hídrica",
+              "nivel": 4,
+              "descripcion": "Longitud en metros.",
+              "palabras_clave": ["red hídrica", "longitud", "metros", "ríos", "quebradas"],
+              "subsecciones": []
+            },
+            {
+              "id": "caudal",
+              "titulo": "Caudal",
+              "nivel": 4,
+              "descripcion": "l/s mínimo, máximo, medio.",
+              "palabras_clave": ["caudal", "l/s", "mínimo", "máximo", "medio"],
+              "subsecciones": []
+            }
+          ]
+        },
+        {
+          "id": "limnologia",
+          "titulo": "Limnología (La Samaria)",
+          "nivel": 3,
+          "descripcion": "Estudio de las características físicas y biológicas de los cuerpos de agua dulce.",
+          "palabras_clave": ["limnología", "agua dulce", "calidad del agua"],
+          "subsecciones": [
+            {
+              "id": "calidad_agua",
+              "titulo": "Calidad del agua",
+              "nivel": 4,
+              "descripcion": "Indicadores de la calidad del agua.",
+              "palabras_clave": ["calidad", "agua", "indicadores"],
+              "subsecciones": [
+                {
+                  "id": "icosus",
+                  "titulo": "ICOSUS",
+                  "nivel": 5,
+                  "descripcion": "Concentración de los sólidos suspendidos.",
+                  "palabras_clave": ["ICOSUS", "sólidos suspendidos", "concentración"],
+                  "subsecciones": []
+                },
+                {
+                  "id": "icotro",
+                  "titulo": "ICOTRO",
+                  "nivel": 5,
+                  "descripcion": "Concentración de fosforo total.",
+                  "palabras_clave": ["ICOTRO", "fósforo", "concentración"],
+                  "subsecciones": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+    ,
+    
+    {
+      "id": "paisaje",
+      "titulo": "Paisaje",
+      "nivel": 2,
+      "descripcion": "Análisis del paisaje y sus características.",
+      "palabras_clave": ["paisaje", "coberturas", "fragmentación", "vegetación", "ecosistemas"],
+      "subsecciones": [
+        {
+          "id": "coberturas",
+          "titulo": "Coberturas",
+          "nivel": 3,
+          "descripcion": "Categorías: Corine Land Cover 1:5.000.",
+          "palabras_clave": ["coberturas", "Corine Land Cover", "vegetación", "clasificación"],
+          "subsecciones": []
+        },
+        {
+          "id": "fragmentacion_coberturas",
+          "titulo": "Fragmentación coberturas",
+          "nivel": 3,
+          "descripcion": "Análisis de la fragmentación de las coberturas vegetales.",
+          "palabras_clave": ["fragmentación", "parches", "conectividad", "diversidad"],
+          "subsecciones": [
+            {
+              "id": "tamanio_fragmentacion",
+              "titulo": "Tamaño",
+              "nivel": 4,
+              "descripcion": "Hectáreas.",
+              "palabras_clave": ["tamaño", "hectáreas", "fragmentación"],
+              "subsecciones": []
+            },
+            {
+              "id": "numero_parches",
+              "titulo": "Número de parches",
+              "nivel": 4,
+              "descripcion": "No.",
+              "palabras_clave": ["número", "parches", "fragmentación"],
+              "subsecciones": []
+            },
+            {
+              "id": "tamanio_medio_parches",
+              "titulo": "Tamaño medio de parches",
+              "nivel": 4,
+              "descripcion": "Hectáreas.",
+              "palabras_clave": ["tamaño medio", "parches", "hectáreas"],
+              "subsecciones": []
+            },
+            {
+              "id": "densidad_parches",
+              "titulo": "Densidad de parches",
+              "nivel": 4,
+              "descripcion": "No./ha.",
+              "palabras_clave": ["densidad", "parches", "hectárea"],
+              "subsecciones": []
+            },
+            {
+              "id": "indice_fragmentacion",
+              "titulo": "Índice de fragmentación",
+              "nivel": 4,
+              "descripcion": "Valor.",
+              "palabras_clave": ["índice", "fragmentación", "valor"],
+              "subsecciones": []
+            },
+            {
+              "id": "indice_forma",
+              "titulo": "Índice de forma",
+              "nivel": 4,
+              "descripcion": "Valor.",
+              "palabras_clave": ["índice", "forma", "valor"],
+              "subsecciones": []
+            },
+            {
+              "id": "indice_conectividad",
+              "titulo": "Índice de conectividad",
+              "nivel": 4,
+              "descripcion": "Valor.",
+              "palabras_clave": ["índice", "conectividad", "valor"],
+              "subsecciones": []
+            },
+            {
+              "id": "indice_diversidad_paisaje",
+              "titulo": "índice de Diversidad de Paisaje",
+              "nivel": 4,
+              "descripcion": "Valor.",
+              "palabras_clave": ["índice", "diversidad", "paisaje", "valor"],
+              "subsecciones": []
+            },
+            {
+              "id": "indice_dominancia",
+              "titulo": "Índice de Dominancia",
+              "nivel": 4,
+              "descripcion": "Valor.",
+              "palabras_clave": ["índice", "dominancia", "valor"],
+              "subsecciones": []
+            },
+            {
+              "id": "indice_contiguidad",
+              "titulo": "Índice de Contigüidad",
+              "nivel": 4,
+              "descripcion": "Valor.",
+              "palabras_clave": ["índice", "contigüidad", "valor"],
+              "subsecciones": []
+            }
+          ]
+        },
+        {
+          "id": "analisis_multitemporal",
+          "titulo": "Análisis multitemporal",
+          "nivel": 3,
+          "descripcion": "Análisis de cambios en la cobertura a lo largo del tiempo.",
+          "palabras_clave": ["multitemporal", "cambios", "bosques", "cobertura"],
+          "subsecciones": [
+            {
+              "id": "perdida_bosques",
+              "titulo": "Perdida de bosques del año 2000 a 2024",
+              "nivel": 4,
+              "descripcion": "Hectáreas por año.",
+              "palabras_clave": ["pérdida", "bosques", "hectáreas", "deforestación"],
+              "subsecciones": []
+            },
+            {
+              "id": "ganancia_bosques",
+              "titulo": "Ganancia de bosque del año 2002 a 2020",
+              "nivel": 4,
+              "descripcion": "Hectáreas por año.",
+              "palabras_clave": ["ganancia", "bosques", "hectáreas", "reforestación"],
+              "subsecciones": []
+            }
+          ]
+        },
+        {
+          "id": "usos",
+          "titulo": "Usos",
+          "nivel": 3,
+          "descripcion": "Análisis de los diferentes usos del suelo.",
+          "palabras_clave": ["usos", "suelo", "conservación", "restauración"],
+          "subsecciones": [
+            {
+              "id": "uso_suelo",
+              "titulo": "Uso del suelo",
+              "nivel": 4,
+              "descripcion": "Categorías: Conservación, Restauración, Ganadería....",
+              "palabras_clave": ["uso", "suelo", "conservación", "restauración", "ganadería"],
+              "subsecciones": []
+            },
+            {
+              "id": "grado_naturalidad",
+              "titulo": "Grado de naturalidad",
+              "nivel": 4,
+              "descripcion": "Categorías: Antropizado, Seminatural, Natural....",
+              "palabras_clave": ["naturalidad", "antropizado", "seminatural", "natural"],
+              "subsecciones": []
+            }
+          ]
+        },
+        {
+          "id": "vegetacion",
+          "titulo": "Vegetación",
+          "nivel": 3,
+          "descripcion": "Características de la vegetación presente.",
+          "palabras_clave": ["vegetación", "dosel", "índices", "biomasa"],
+          "subsecciones": [
+            {
+              "id": "dosel",
+              "titulo": "Dosel",
+              "nivel": 4,
+              "descripcion": "Altura de la vegetación.",
+              "palabras_clave": ["dosel", "altura", "vegetación"],
+              "subsecciones": []
+            },
+            {
+              "id": "ndvi",
+              "titulo": "NDVI",
+              "nivel": 4,
+              "descripcion": "Valor de 0 a 100.",
+              "palabras_clave": ["NDVI", "índice", "vegetación"],
+              "subsecciones": []
+            },
+            {
+              "id": "red_edge_ndvi",
+              "titulo": "Red-Edge NDVI",
+              "nivel": 4,
+              "descripcion": "Valor de 0 a 100.",
+              "palabras_clave": ["Red-Edge", "NDVI", "índice"],
+              "subsecciones": []
+            },
+            {
+              "id": "msavi",
+              "titulo": "MSAVI",
+              "nivel": 4,
+              "descripcion": "Valor de 0 a 100.",
+              "palabras_clave": ["MSAVI", "índice", "vegetación"],
+              "subsecciones": []
+            },
+            {
+              "id": "tsavi",
+              "titulo": "TSAVI",
+              "nivel": 4,
+              "descripcion": "Valor de 0 a 100.",
+              "palabras_clave": ["TSAVI", "índice", "vegetación"],
+              "subsecciones": []
+            },
+            {
+              "id": "ndwi",
+              "titulo": "NDWI",
+              "nivel": 4,
+              "descripcion": "Valor de 0 a 100.",
+              "palabras_clave": ["NDWI", "índice", "agua"],
+              "subsecciones": []
+            },
+            {
+              "id": "chm",
+              "titulo": "CHM",
+              "nivel": 4,
+              "descripcion": "Valor de 0 a 100.",
+              "palabras_clave": ["CHM", "modelo", "altura", "dosel"],
+              "subsecciones": []
+            },
+            {
+              "id": "biomasa_aerea",
+              "titulo": "Biomasa aérea",
+              "nivel": 4,
+              "descripcion": "Toneladas por ha.",
+              "palabras_clave": ["biomasa", "aérea", "toneladas"],
+              "subsecciones": []
+            },
+            {
+              "id": "biomasa_suelo",
+              "titulo": "Biomasa suelo",
+              "nivel": 4,
+              "descripcion": "Toneladas por ha.",
+              "palabras_clave": ["biomasa", "suelo", "toneladas"],
+              "subsecciones": []
+            }
+          ]
+        },
+        {
+          "id": "biomas",
+          "titulo": "Biomas",
+          "nivel": 3,
+          "descripcion": "Categorías: Bioma + Biorregión.",
+          "palabras_clave": ["biomas", "biorregión", "ecosistemas regionales"],
+          "subsecciones": []
+        },
+        {
+          "id": "ecosistemas",
+          "titulo": "Ecosistemas",
+          "nivel": 3,
+          "descripcion": "Categorías: Cobertura + Bioma.",
+          "palabras_clave": ["ecosistemas", "cobertura", "bioma"],
+          "subsecciones": [
+            {
+              "id": "estado_amenaza_uicn",
+              "titulo": "Estado de amenaza UICN",
+              "nivel": 4,
+              "descripcion": "Valor de 0 a 5.",
+              "palabras_clave": ["amenaza", "UICN", "conservación"],
+              "subsecciones": []
+            },
+            {
+              "id": "representacion",
+              "titulo": "Representación",
+              "nivel": 4,
+              "descripcion": "Valor de 0 a 5.",
+              "palabras_clave": ["representación", "ecosistemas"],
+              "subsecciones": []
+            },
+            {
+              "id": "rareza",
+              "titulo": "Rareza",
+              "nivel": 4,
+              "descripcion": "Valor de 0 a 5.",
+              "palabras_clave": ["rareza", "ecosistemas"],
+              "subsecciones": []
+            },
+            {
+              "id": "remanencia",
+              "titulo": "Remanencia",
+              "nivel": 4,
+              "descripcion": "Valor de 0 a 5.",
+              "palabras_clave": ["remanencia", "ecosistemas"],
+              "subsecciones": []
+            },
+            {
+              "id": "tasa_transformacion",
+              "titulo": "Tasa de transformación",
+              "nivel": 4,
+              "descripcion": "Valor de 0 a 5.",
+              "palabras_clave": ["transformación", "tasa", "ecosistemas"],
+              "subsecciones": []
+            },
+            {
+              "id": "factor_compensacion",
+              "titulo": "Factor de Compensación",
+              "nivel": 4,
+              "descripcion": "Valor de 0 a 5.",
+              "palabras_clave": ["compensación", "factor", "ecosistemas"],
+              "subsecciones": []
+            }
+          ]
+        }
+      ]
+    }
+    ,
+    
+    {
+      "id": "componente_biotico",
+      "titulo": "Componente biótico",
+      "nivel": 2,
+      "descripcion": "Descripción de los elementos biológicos del ecosistema.",
+      "palabras_clave": ["biótico", "fauna", "flora", "especies", "biodiversidad"],
+      "subsecciones": [
+        {
+          "id": "fauna",
+          "titulo": "Fauna",
+          "nivel": 3,
+          "descripcion": "Caracterización de la fauna presente en el área.",
+          "palabras_clave": ["fauna", "animales", "especies", "biodiversidad"],
+          "subsecciones": [
+            {
+              "id": "fauna_area_influencia",
+              "titulo": "Área de influencia",
+              "nivel": 4,
+              "descripcion": "Fauna en el área de influencia del proyecto.",
+              "palabras_clave": ["fauna", "área", "influencia"],
+              "subsecciones": [
+                {
+                  "id": "fauna_composicion",
+                  "titulo": "Composición",
+                  "nivel": 5,
+                  "descripcion": "Listado de especies con verificación taxonómica.",
+                  "palabras_clave": ["composición", "especies", "taxonomía"],
+                  "subsecciones": []
+                },
+                {
+                  "id": "fauna_riqueza",
+                  "titulo": "Riqueza",
+                  "nivel": 5,
+                  "descripcion": "No. de Especies por clase sistémica.",
+                  "palabras_clave": ["riqueza", "especies", "clase"],
+                  "subsecciones": []
+                },
+                {
+                  "id": "fauna_abundancia",
+                  "titulo": "Abundancia",
+                  "nivel": 5,
+                  "descripcion": "Número total de individuos.",
+                  "palabras_clave": ["abundancia", "individuos", "población"],
+                  "subsecciones": []
+                },
+                {
+                  "id": "fauna_riqueza_ordenes",
+                  "titulo": "Riqueza por Órdenes",
+                  "nivel": 5,
+                  "descripcion": "No. de Especies por orden sistémica.",
+                  "palabras_clave": ["riqueza", "órdenes", "especies"],
+                  "subsecciones": []
+                },
+                {
+                  "id": "fauna_riqueza_familias",
+                  "titulo": "Riqueza por Familias",
+                  "nivel": 5,
+                  "descripcion": "No. de Especies por familia sistémica.",
+                  "palabras_clave": ["riqueza", "familias", "especies"],
+                  "subsecciones": []
+                },
+                {
+                  "id": "fauna_riqueza_amenazas_uicn",
+                  "titulo": "Riqueza por Amenazas Internacionalmente - UICN",
+                  "nivel": 5,
+                  "descripcion": "No. de Especies por categoría de amenaza.",
+                  "palabras_clave": ["amenazas", "UICN", "internacional"],
+                  "subsecciones": []
+                },
+                {
+                  "id": "fauna_riqueza_amenazas_colombia",
+                  "titulo": "Riqueza por Amenazas en Colombia",
+                  "nivel": 5,
+                  "descripcion": "No. de Especies por categoría de amenaza.",
+                  "palabras_clave": ["amenazas", "Colombia", "nacional"],
+                  "subsecciones": []
+                },
+                {
+                  "id": "fauna_riqueza_cites",
+                  "titulo": "Riqueza por Categorías CITES",
+                  "nivel": 5,
+                  "descripcion": "No. de Especies por categoría de restricción.",
+                  "palabras_clave": ["CITES", "restricción", "comercio"],
+                  "subsecciones": []
+                },
+                {
+                  "id": "fauna_riqueza_distribucion",
+                  "titulo": "Riqueza por Distribución",
+                  "nivel": 5,
+                  "descripcion": "No. de Especies por categoría de distribución.",
+                  "palabras_clave": ["distribución", "endémicas", "nativas"],
+                  "subsecciones": []
+                },
+                {
+                  "id": "fauna_riqueza_institucion",
+                  "titulo": "Riqueza por Institución y Conjunto de Datos",
+                  "nivel": 5,
+                  "descripcion": "No. de Especies por Institución y Conjunto de Datos.",
+                  "palabras_clave": ["institución", "datos", "registros"],
+                  "subsecciones": []
+                }
+              ]
+            },
+            {
+              "id": "fauna_area_especifica",
+              "titulo": "Área especifica del Parque",
+              "nivel": 4,
+              "descripcion": "Fauna en el área específica del parque.",
+              "palabras_clave": ["fauna", "área", "parque"],
+              "subsecciones": [
+                {
+                  "id": "fauna_parque_riqueza",
+                  "titulo": "Riqueza",
+                  "nivel": 5,
+                  "descripcion": "No. de Especies por clase sistémica.",
+                  "palabras_clave": ["riqueza", "especies", "clase"],
+                  "subsecciones": []
+                },
+                {
+                  "id": "fauna_parque_abundancia",
+                  "titulo": "Abundancia",
+                  "nivel": 5,
+                  "descripcion": "Número total de individuos.",
+                  "palabras_clave": ["abundancia", "individuos", "población"],
+                  "subsecciones": []
+                },
+                {
+                  "id": "fauna_parque_riqueza_ordenes",
+                  "titulo": "Riqueza por Órdenes",
+                  "nivel": 5,
+                  "descripcion": "No. de Especies por clase sistémica.",
+                  "palabras_clave": ["riqueza", "órdenes", "especies"],
+                  "subsecciones": []
+                },
+                {
+                  "id": "fauna_parque_riqueza_familias",
+                  "titulo": "Riqueza por Familias",
+                  "nivel": 5,
+                  "descripcion": "No. de Especies por clase sistémica.",
+                  "palabras_clave": ["riqueza", "familias", "especies"],
+                  "subsecciones": []
+                },
+                {
+                  "id": "fauna_parque_riqueza_amenazas_uicn",
+                  "titulo": "Riqueza por Amenazas Internacionalmente - UICN",
+                  "nivel": 5,
+                  "descripcion": "No. de Especies por clase sistémica.",
+                  "palabras_clave": ["amenazas", "UICN", "internacional"],
+                  "subsecciones": []
+                },
+                {
+                  "id": "fauna_parque_riqueza_amenazas_colombia",
+                  "titulo": "Riqueza por Amenazas en Colombia",
+                  "nivel": 5,
+                  "descripcion": "No. de Especies por clase sistémica.",
+                  "palabras_clave": ["amenazas", "Colombia", "nacional"],
+                  "subsecciones": []
+                },
+                {
+                  "id": "fauna_parque_riqueza_cites",
+                  "titulo": "Riqueza por Categorías CITES",
+                  "nivel": 5,
+                  "descripcion": "No. de Especies por clase sistémica.",
+                  "palabras_clave": ["CITES", "restricción", "comercio"],
+                  "subsecciones": []
+                },
+                {
+                  "id": "fauna_parque_riqueza_distribucion",
+                  "titulo": "Riqueza por Distribución",
+                  "nivel": 5,
+                  "descripcion": "No. de Especies por clase sistémica.",
+                  "palabras_clave": ["distribución", "endémicas", "nativas"],
+                  "subsecciones": []
+                },
+                {
+                  "id": "fauna_parque_simpson",
+                  "titulo": "Simpson",
+                  "nivel": 5,
+                  "descripcion": "Índice Simpson.",
+                  "palabras_clave": ["Simpson", "índice", "diversidad"],
+                  "subsecciones": []
+                },
+                {
+                  "id": "fauna_parque_dominancia",
+                  "titulo": "Dominancia",
+                  "nivel": 5,
+                  "descripcion": "Índice Dominancia.",
+                  "palabras_clave": ["dominancia", "índice", "diversidad"],
+                  "subsecciones": []
+                },
+                {
+                  "id": "fauna_parque_shannon",
+                  "titulo": "Shannon",
+                  "nivel": 5,
+                  "descripcion": "Índice Shannon.",
+                  "palabras_clave": ["Shannon", "índice", "diversidad"],
+                  "subsecciones": []
+                },
+                {
+                  "id": "fauna_parque_chao1",
+                  "titulo": "Chao-1",
+                  "nivel": 5,
+                  "descripcion": "Índice Chao-1.",
+                  "palabras_clave": ["Chao-1", "índice", "diversidad"],
+                  "subsecciones": []
+                },
+                {
+                  "id": "fauna_parque_representatividad",
+                  "titulo": "Representatividad",
+                  "nivel": 5,
+                  "descripcion": "Índice Representatividad.",
+                  "palabras_clave": ["representatividad", "índice", "diversidad"],
+                  "subsecciones": []
+                },
+                {
+                  "id": "fauna_parque_riqueza_dispersoras",
+                  "titulo": "Riqueza de dispersoras",
+                  "nivel": 5,
+                  "descripcion": "Número de especies dispersoras.",
+                  "palabras_clave": ["dispersoras", "riqueza", "especies"],
+                  "subsecciones": []
+                },
+                {
+                  "id": "fauna_parque_riqueza_polinizadoras",
+                  "titulo": "Riqueza de polinizadoras",
+                  "nivel": 5,
+                  "descripcion": "Número de especies polinizadoras.",
+                  "palabras_clave": ["polinizadoras", "riqueza", "especies"],
+                  "subsecciones": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "flora",
+          "titulo": "Flora",
+          "nivel": 3,
+          "descripcion": "Identificación de especies vegetales endémicas y en peligro, y su distribución.",
+          "palabras_clave": ["flora", "plantas", "vegetación", "especies"],
+          "subsecciones": [
+            {
+              "id": "flora_area_influencia",
+              "titulo": "Área de influencia",
+              "nivel": 4,
+              "descripcion": "Flora en el área de influencia del proyecto.",
+              "palabras_clave": ["flora", "área", "influencia"],
+              "subsecciones": [
+                {
+                  "id": "flora_composicion",
+                  "titulo": "Composición",
+                  "nivel": 5,
+                  "descripcion": "Listado de especies con verificación taxonómica.",
+                  "palabras_clave": ["composición", "especies", "taxonomía"],
+                  "subsecciones": []
+                },
+                {
+                  "id": "flora_riqueza",
+                  "titulo": "Riqueza",
+                  "nivel": 5,
+                  "descripcion": "No. de Especies por clase sistémica.",
+                  "palabras_clave": ["riqueza", "especies", "clase"],
+                  "subsecciones": []
+                },
+                {
+                  "id": "flora_abundancia",
+                  "titulo": "Abundancia",
+                  "nivel": 5,
+                  "descripcion": "Número total de individuos.",
+                  "palabras_clave": ["abundancia", "individuos", "población"],
+                  "subsecciones": []
+                },
+                {
+                  "id": "flora_riqueza_ordenes",
+                  "titulo": "Riqueza por Órdenes",
+                  "nivel": 5,
+                  "descripcion": "No. de Especies por orden sistémica.",
+                  "palabras_clave": ["riqueza", "órdenes", "especies"],
+                  "subsecciones": []
+                },
+                {
+                  "id": "flora_riqueza_familias",
+                  "titulo": "Riqueza por Familias",
+                  "nivel": 5,
+                  "descripcion": "No. de Especies por familia sistémica.",
+                  "palabras_clave": ["riqueza", "familias", "especies"],
+                  "subsecciones": []
+                },
+                {
+                  "id": "flora_riqueza_amenazas_uicn",
+                  "titulo": "Riqueza por Amenazas Internacionalmente - UICN",
+                  "nivel": 5,
+                  "descripcion": "No. de Especies por categoría de amenaza.",
+                  "palabras_clave": ["amenazas", "UICN", "internacional"],
+                  "subsecciones": []
+                },
+                {
+                  "id": "flora_riqueza_amenazas_colombia",
+                  "titulo": "Riqueza por Amenazas en Colombia",
+                  "nivel": 5,
+                  "descripcion": "No. de Especies por categoría de amenaza.",
+                  "palabras_clave": ["amenazas", "Colombia", "nacional"],
+                  "subsecciones": []
+                },
+                {
+                  "id": "flora_riqueza_cites",
+                  "titulo": "Riqueza por Categorías CITES",
+                  "nivel": 5,
+                  "descripcion": "No. de Especies por categoría de restricción.",
+                  "palabras_clave": ["CITES", "restricción", "comercio"],
+                  "subsecciones": []
+                },
+                {
+                  "id": "flora_riqueza_distribucion",
+                  "titulo": "Riqueza por Distribución",
+                  "nivel": 5,
+                  "descripcion": "No. de Especies por categoría de distribución.",
+                  "palabras_clave": ["distribución", "endémicas", "nativas"],
+                  "subsecciones": []
+                },
+                {
+                  "id": "flora_riqueza_institucion",
+                  "titulo": "Riqueza por Institución y Conjunto de Datos",
+                  "nivel": 5,
+                  "descripcion": "No. de Especies por Institución y Conjunto de Datos.",
+                  "palabras_clave": ["institución", "datos", "registros"],
+                  "subsecciones": []
+                }
+              ]
+            },
+            {
+              "id": "flora_area_especifica",
+              "titulo": "Área específica del Parque",
+              "nivel": 4,
+              "descripcion": "Flora en el área específica del parque.",
+              "palabras_clave": ["flora", "área", "parque"],
+              "subsecciones": [
+                {
+                  "id": "flora_parque_riqueza",
+                  "titulo": "Riqueza",
+                  "nivel": 5,
+                  "descripcion": "No. de Especies por clase sistémica.",
+                  "palabras_clave": ["riqueza", "especies", "clase"],
+                  "subsecciones": []
+                },
+                {
+                  "id": "flora_parque_abundancia",
+                  "titulo": "Abundancia",
+                  "nivel": 5,
+                  "descripcion": "Número total de individuos.",
+                  "palabras_clave": ["abundancia", "individuos", "población"],
+                  "subsecciones": []
+                },
+                {
+                  "id": "flora_parque_riqueza_ordenes",
+                  "titulo": "Riqueza por Órdenes",
+                  "nivel": 5,
+                  "descripcion": "No. de Especies por clase sistémica.",
+                  "palabras_clave": ["riqueza", "órdenes", "especies"],
+                  "subsecciones": []
+                },
+                {
+                  "id": "flora_parque_riqueza_familias",
+                  "titulo": "Riqueza por Familias",
+                  "nivel": 5,
+                  "descripcion": "No. de Especies por clase sistémica.",
+                  "palabras_clave": ["riqueza", "familias", "especies"],
+                  "subsecciones": []
+                },
+                {
+                  "id": "flora_parque_riqueza_amenazas_uicn",
+                  "titulo": "Riqueza por Amenazas Internacionalmente - UICN",
+                  "nivel": 5,
+                  "descripcion": "No. de Especies por clase sistémica.",
+                  "palabras_clave": ["amenazas", "UICN", "internacional"],
+                  "subsecciones": []
+                },
+                {
+                  "id": "flora_parque_riqueza_amenazas_colombia",
+                  "titulo": "Riqueza por Amenazas en Colombia",
+                  "nivel": 5,
+                  "descripcion": "No. de Especies por clase sistémica.",
+                  "palabras_clave": ["amenazas", "Colombia", "nacional"],
+                  "subsecciones": []
+                },
+                {
+                  "id": "flora_parque_riqueza_cites",
+                  "titulo": "Riqueza por Categorías CITES",
+                  "nivel": 5,
+                  "descripcion": "No. de Especies por clase sistémica.",
+                  "palabras_clave": ["CITES", "restricción", "comercio"],
+                  "subsecciones": []
+                },
+                {
+                  "id": "flora_parque_riqueza_distribucion",
+                  "titulo": "Riqueza por Distribución",
+                  "nivel": 5,
+                  "descripcion": "No. de Especies por clase sistémica.",
+                  "palabras_clave": ["distribución", "endémicas", "nativas"],
+                  "subsecciones": []
+                },
+                {
+                  "id": "flora_parque_simpson",
+                  "titulo": "Simpson",
+                  "nivel": 5,
+                  "descripcion": "Índice Simpson.",
+                  "palabras_clave": ["Simpson", "índice", "diversidad"],
+                  "subsecciones": []
+                },
+                {
+                  "id": "flora_parque_dominancia",
+                  "titulo": "Dominancia",
+                  "nivel": 5,
+                  "descripcion": "Índice Dominancia.",
+                  "palabras_clave": ["dominancia", "índice", "diversidad"],
+                  "subsecciones": []
+                },
+                {
+                  "id": "flora_parque_shannon",
+                  "titulo": "Shannon",
+                  "nivel": 5,
+                  "descripcion": "Índice Shannon.",
+                  "palabras_clave": ["Shannon", "índice", "diversidad"],
+                  "subsecciones": []
+                },
+                {
+                  "id": "flora_parque_chao1",
+                  "titulo": "Chao-1",
+                  "nivel": 5,
+                  "descripcion": "Índice Chao-1.",
+                  "palabras_clave": ["Chao-1", "índice", "diversidad"],
+                  "subsecciones": []
+                },
+                {
+                  "id": "flora_parque_representatividad",
+                  "titulo": "Representatividad",
+                  "nivel": 5,
+                  "descripcion": "Índice Representatividad.",
+                  "palabras_clave": ["representatividad", "índice", "diversidad"],
+                  "subsecciones": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+    ,
+    
+    {
+      "id": "componente_funcional",
+      "titulo": "Componente funcional",
+      "nivel": 2,
+      "descripcion": "Análisis de las funciones y servicios ecosistémicos del área.",
+      "palabras_clave": ["funcional", "conectividad", "servicios", "ecosistémicos", "restauración"],
+      "subsecciones": [
+        {
+          "id": "conectividad",
+          "titulo": "Conectividad",
+          "nivel": 3,
+          "descripcion": "Análisis de la conectividad ecológica del área.",
+          "palabras_clave": ["conectividad", "ecológica", "corredores", "fragmentación"],
+          "subsecciones": [
+            {
+              "id": "densidad_viviendas",
+              "titulo": "Densidad de viviendas",
+              "nivel": 4,
+              "descripcion": "Viviendas por km2.",
+              "palabras_clave": ["densidad", "viviendas", "km2", "impacto"],
+              "subsecciones": []
+            },
+            {
+              "id": "distancia_vias",
+              "titulo": "Distancia a vías",
+              "nivel": 4,
+              "descripcion": "Kilómetros.",
+              "palabras_clave": ["distancia", "vías", "carreteras", "accesibilidad"],
+              "subsecciones": []
+            },
+            {
+              "id": "bosque_no_bosque",
+              "titulo": "Bosque no bosque",
+              "nivel": 4,
+              "descripcion": "Presencia ausencia de bosques.",
+              "palabras_clave": ["bosque", "cobertura", "presencia", "ausencia"],
+              "subsecciones": []
+            },
+            {
+              "id": "indice_area_foliar",
+              "titulo": "Índice de área Foliar",
+              "nivel": 4,
+              "descripcion": "Índice LAI Normalizado de 1 a 100.",
+              "palabras_clave": ["índice", "área foliar", "LAI", "vegetación"],
+              "subsecciones": []
+            },
+            {
+              "id": "cercania_drenajes",
+              "titulo": "Cercanía a drenajes",
+              "nivel": 4,
+              "descripcion": "Cercanía a drenajes.",
+              "palabras_clave": ["cercanía", "drenajes", "agua", "hidrología"],
+              "subsecciones": []
+            },
+            {
+              "id": "resistencia_viviendas",
+              "titulo": "Resistencia a viviendas",
+              "nivel": 4,
+              "descripcion": "Valor normalizado de 1 a 100.",
+              "palabras_clave": ["resistencia", "viviendas", "normalizado"],
+              "subsecciones": []
+            },
+            {
+              "id": "resistencia_vias",
+              "titulo": "Resistencia a vías",
+              "nivel": 4,
+              "descripcion": "Valor normalizado de 1 a 100.",
+              "palabras_clave": ["resistencia", "vías", "normalizado"],
+              "subsecciones": []
+            },
+            {
+              "id": "resistencia_bosque_no_bosque",
+              "titulo": "Resistencia a Bosque no bosque",
+              "nivel": 4,
+              "descripcion": "Valor normalizado de 1 a 100.",
+              "palabras_clave": ["resistencia", "bosque", "no bosque", "normalizado"],
+              "subsecciones": []
+            },
+            {
+              "id": "resistencia_indice_area_foliar",
+              "titulo": "Resistencia a Índice de área Foliar",
+              "nivel": 4,
+              "descripcion": "Valor normalizado de 1 a 100.",
+              "palabras_clave": ["resistencia", "índice", "área foliar", "normalizado"],
+              "subsecciones": []
+            },
+            {
+              "id": "resistencia_drenajes",
+              "titulo": "Resistencia a drenajes",
+              "nivel": 4,
+              "descripcion": "Valor normalizado de 1 a 100.",
+              "palabras_clave": ["resistencia", "drenajes", "normalizado"],
+              "subsecciones": []
+            },
+            {
+              "id": "resistencia_general",
+              "titulo": "Resistencia general",
+              "nivel": 4,
+              "descripcion": "Valor normalizado de 1 a 100.",
+              "palabras_clave": ["resistencia", "general", "normalizado"],
+              "subsecciones": []
+            },
+            {
+              "id": "conectividad_funcional",
+              "titulo": "Conectividad funcional",
+              "nivel": 4,
+              "descripcion": "Mapa flujo de procesos ecosistémicos.",
+              "palabras_clave": ["conectividad", "funcional", "procesos", "ecosistémicos"],
+              "subsecciones": []
+            },
+            {
+              "id": "barreras_cuellos_botella",
+              "titulo": "Barreras, Cuellos de botella",
+              "nivel": 4,
+              "descripcion": "Mapa con barreras a la conectividad.",
+              "palabras_clave": ["barreras", "cuellos de botella", "conectividad"],
+              "subsecciones": []
+            },
+            {
+              "id": "priorizacion_restauracion",
+              "titulo": "Priorización para la restauración",
+              "nivel": 4,
+              "descripcion": "Mapa áreas prioritarias para la restauración.",
+              "palabras_clave": ["priorización", "restauración", "áreas", "prioritarias"],
+              "subsecciones": []
+            }
+          ]
+        },
+        {
+          "id": "servicios_ecosistemicos",
+          "titulo": "Servicios ecosistémicos",
+          "nivel": 3,
+          "descripcion": "Análisis de los servicios que brinda el ecosistema.",
+          "palabras_clave": ["servicios", "ecosistémicos", "beneficios", "ambiente"],
+          "subsecciones": [
+            {
+              "id": "reconocimiento_valoracion_servicios",
+              "titulo": "Reconocimiento y valoración de los servicios",
+              "nivel": 4,
+              "descripcion": "Valoración cualitativa de 0 a 10.",
+              "palabras_clave": ["reconocimiento", "valoración", "servicios", "cualitativa"],
+              "subsecciones": []
+            }
+          ]
+        }
+      ]
+    }
+    ,
+    
+    {
+      "id": "componente_socioeconomico",
+      "titulo": "Componente socioeconómico",
+      "nivel": 2,
+      "descripcion": "Análisis de aspectos sociales y económicos del área de estudio.",
+      "palabras_clave": ["socioeconómico", "social", "económico", "población", "vivienda", "educación"],
+      "subsecciones": [
+        {
+          "id": "vivienda_rural",
+          "titulo": "Vivienda rural",
+          "nivel": 3,
+          "descripcion": "Caracterización de la vivienda en zonas rurales.",
+          "palabras_clave": ["vivienda", "rural", "hogares", "tenencia"],
+          "subsecciones": [
+            {
+              "id": "num_total_viviendas",
+              "titulo": "Número total viviendas y hogares por zona rural",
+              "nivel": 4,
+              "descripcion": "No total.",
+              "palabras_clave": ["número", "viviendas", "hogares", "zona rural"],
+              "subsecciones": []
+            },
+            {
+              "id": "tipos_viviendas",
+              "titulo": "Número de Tipos de viviendas por zona rural",
+              "nivel": 4,
+              "descripcion": "Categorías: Casas, apartamentos, cuartos,.....",
+              "palabras_clave": ["tipos", "viviendas", "casas", "apartamentos", "cuartos"],
+              "subsecciones": []
+            },
+            {
+              "id": "tenencia_vivienda",
+              "titulo": "Tenencia de la vivienda por zona rural",
+              "nivel": 4,
+              "descripcion": "Categorías: Propia, Pagando, Arriendo,.....",
+              "palabras_clave": ["tenencia", "vivienda", "propia", "arriendo"],
+              "subsecciones": []
+            }
+          ]
+        },
+        {
+          "id": "educacion",
+          "titulo": "Educación",
+          "nivel": 3,
+          "descripcion": "Análisis del nivel educativo en la población rural.",
+          "palabras_clave": ["educación", "nivel educativo", "escolaridad"],
+          "subsecciones": [
+            {
+              "id": "nivel_educativo",
+              "titulo": "Nivel educativo por zona rural",
+              "nivel": 4,
+              "descripcion": "Categorías: Primaria, Segundaria, Superior......",
+              "palabras_clave": ["nivel", "educativo", "primaria", "secundaria", "superior"],
+              "subsecciones": []
+            }
+          ]
+        },
+        {
+          "id": "servicios",
+          "titulo": "Servicios",
+          "nivel": 3,
+          "descripcion": "Análisis de los servicios públicos disponibles.",
+          "palabras_clave": ["servicios", "públicos", "básicos", "cobertura"],
+          "subsecciones": [
+            {
+              "id": "servicios_publicos",
+              "titulo": "Servicios públicos por zona rural",
+              "nivel": 5,
+              "descripcion": "Categorías: Energía eléctrica, Acueducto, Alcantarillado,....",
+              "palabras_clave": ["servicios", "públicos", "energía", "acueducto", "alcantarillado"],
+              "subsecciones": []
+            }
+          ]
+        },
+        {
+          "id": "variables_demograficas",
+          "titulo": "Variables demográficas",
+          "nivel": 3,
+          "descripcion": "Análisis de las características demográficas de la población.",
+          "palabras_clave": ["demografía", "población", "estructura", "edades"],
+          "subsecciones": [
+            {
+              "id": "poblacion_total",
+              "titulo": "Población total por zona rural",
+              "nivel": 4,
+              "descripcion": "Categorías por distribución de edades y sexo.",
+              "palabras_clave": ["población", "total", "rural", "edades", "sexo"],
+              "subsecciones": []
+            }
+          ]
+        },
+        {
+          "id": "actores_clave",
+          "titulo": "Actores clave",
+          "nivel": 3,
+          "descripcion": "Identificación de actores relevantes en el territorio.",
+          "palabras_clave": ["actores", "clave", "stakeholders", "comunidad"],
+          "subsecciones": [
+            {
+              "id": "identificacion_actores",
+              "titulo": "Identificación de actores clave",
+              "nivel": 4,
+              "descripcion": "Listado de actores clave y sus contactos.",
+              "palabras_clave": ["identificación", "actores", "contactos", "directorio"],
+              "subsecciones": []
+            }
+          ]
+        },
+        {
+          "id": "capacidades_actores",
+          "titulo": "Capacidades actores clave",
+          "nivel": 3,
+          "descripcion": "Evaluación de las capacidades de los actores clave.",
+          "palabras_clave": ["capacidades", "actores", "evaluación", "competencias"],
+          "subsecciones": [
+            {
+              "id": "experiencia_proyectos",
+              "titulo": "Experiencia relacionada con proyecto ambientales",
+              "nivel": 4,
+              "descripcion": "Valoración de 0 a 5.",
+              "palabras_clave": ["experiencia", "proyectos", "ambientales", "valoración"],
+              "subsecciones": []
+            },
+            {
+              "id": "conocimiento_proyectos",
+              "titulo": "Conocimiento relacionada con proyecto ambientales",
+              "nivel": 4,
+              "descripcion": "Valoración de 0 a 5.",
+              "palabras_clave": ["conocimiento", "proyectos", "ambientales", "valoración"],
+              "subsecciones": []
+            },
+            {
+              "id": "interes_proyectos",
+              "titulo": "Interés relacionado con proyecto ambientales",
+              "nivel": 4,
+              "descripcion": "Valoración de 0 a 5.",
+              "palabras_clave": ["interés", "proyectos", "ambientales", "valoración"],
+              "subsecciones": []
+            }
+          ]
+        }
+      ]
+    }
+
+  ]
+}
